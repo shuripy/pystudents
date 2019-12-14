@@ -1,0 +1,19 @@
+student = input("Enter the student's name: ")
+testscores=[]
+for test in range(0,3):
+    print("Enter Test Score # ", test)
+    score = int(input())
+    testscores.append(score)
+
+print(student + "'s  scores are:")
+for score in testscores:
+    print(str(score) + '%')
+
+avg = sum(testscores)/len(testscores)
+passing=70
+print(student + "'s average score is: \t" + str(avg) + "%")
+
+if avg >=passing:
+    print("Congratulations, you have passed the class")
+else:
+    print("I'm sorry, you must repeat this class :(")

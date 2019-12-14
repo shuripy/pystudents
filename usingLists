@@ -1,0 +1,4 @@
+# This is a sample file for the list lessons to show the for loop
+mypyclass = ['Sarah', 'Samuel', 'Rohit', 'Ida', 'Kristopher']
+for i in mypyclass:
+    print('Dear ' + i.title() + ', You have been invited to my party! ')

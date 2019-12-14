@@ -1,0 +1,21 @@
+# Testing a while loop
+
+playing='y'
+score=10
+
+
+while playing=='y':
+    color=input("Your Alien is fighting and his score is changing. Enter red, green or yellow to change his score: ")
+    if color=='red':
+        score=score+20
+        print("Your alien has a score of "  + str(score))
+        playing = input('keep playing y/n')
+    if color=='green':
+        score=score+10
+        print("Your alien has a score of " + str(score))
+        playing = input('keep playing y/n')
+    if color=='yellow':
+        score=0
+        print("Your alien is dead!!")
+        playing ='n'
+print('Game Over!!')

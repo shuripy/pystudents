@@ -1,3 +1,3 @@
 # pystudents
-Student Projects will be placed here.
-Each of you will create a "branch" where you will put an assignment for this repository.  This will be our practice location.
+Sample Code will be placed here.
+Do not simply copy the code. Make sure you understand what it is doing.

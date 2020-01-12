@@ -1,0 +1,15 @@
+Write a program with will ask a user what 3 social media websites they have heard of, then print out the URL of each site.
+
+A URL looks like this: https://www.XXX.com
+
+Your user will only enter the name of the site (XXX).  You must work with strings to build the URL and print it out.
+
+You must verify the site works, by clicking the link.
+
+Your program is complete when it:
+
+1.	Prompts the user to enter the name of three sites
+2.	Adds the site name to a list
+3.	Uses a “for loop” to go through the list
+4.	Prints out the correct URL
+5.	Click the URL link and it works.

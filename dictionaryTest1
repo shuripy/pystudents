@@ -1,0 +1,14 @@
+#This code will take the students grades from the dictionary and print out a line for each student, with the name and score.
+import sys
+from termcolor import colored, cprint
+
+grades ={"Jane" : 85, "Jack": 90, "Susan": 75, "Anand":98 }
+
+print(grades)
+
+for student, score in grades.items():
+    print("{}'s score was {}% on last week's test".format(student,score))
+
+keymax = max(grades, key=grades.get)
+
+cprint(keymax + " scored the highest on the exam", 'green' ,'on_cyan')

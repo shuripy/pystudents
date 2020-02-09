@@ -1,0 +1,18 @@
+import sys
+from termcolor import colored, cprint
+
+grades = {}
+more = 'yes'
+
+while more == 'yes':
+    name=input('enter the student name: ')
+    score=input('Enter their score: ')
+    grades[name]=score
+    more=input('do you have more students to enter: ')
+    
+for student, score in grades.items():
+    print("{}'s score was {}% on last week's test".format(student,score))
+
+keymax = max(grades, key=grades.get)
+
+cprint(keymax + " scored the highest on the exam", 'green' ,'on_cyan')
